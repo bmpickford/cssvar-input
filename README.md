@@ -2,11 +2,12 @@
 
 Web Components to change your CSS variables on the fly
 
-[### Demo](https://bmpickford.github.io/cssvar-input/)
+### [Demo](https://bmpickford.github.io/cssvar-input/)
 
 ### Use Cases
  * Generators (e.g. Background generator)
  * User themeing
+ * Plugin to color picker
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
