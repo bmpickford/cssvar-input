@@ -1,4 +1,4 @@
-# \<cssvar-input-X>
+# \<cssvar-input>
 
 Web Components to change your CSS variables on the fly
 
@@ -8,6 +8,7 @@ Web Components to change your CSS variables on the fly
  * Generators (e.g. Background generator)
  * User themeing
  * Plugin to color picker
+ * Building no code solutions
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
@@ -22,15 +23,15 @@ npm i cssvar-input
 #### Numeric Input
 Input with numeric value, followed by unit of measurement. e.g. 4px
 ```html
-<script type="module">import 'cssvar-input/cssvar-input-measurement.js';</script>
-<cssvar-input-measurement propertyName="CSS_VAR_NAME"></cssvar-input-measurement>
+<script type="module">import 'cssvar-input/cssvar-numeric.js';</script>
+<cssvar-numeric propertyName="CSS_VAR_NAME"></cssvar-numeric>
 ```
 
 #### Color Input
 Color based input. Accepts valid CSS colors
 ```html
-<script type="module">import 'cssvar-input/cssvar-input-color.js';</script>
-<cssvar-input-color propertyName="CSS_VAR_NAME"></cssvar-input-color>
+<script type="module">import 'cssvar-input/cssvar-color.js';</script>
+<cssvar-color propertyName="CSS_VAR_NAME"></cssvar-color>
 ```
 
 ### Theming
