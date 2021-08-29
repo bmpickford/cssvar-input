@@ -32,14 +32,16 @@ Color based input. Accepts valid CSS colors
 
 ### Theming
 Possible theme values
-```
-// Color of label and focus highlight on input fields
---theme-color: rgb(49, 130, 206);
+```css
+{
+  /* Color of label and focus highlight on input fields */
+  --theme-color: rgb(49, 130, 206);
 
-// Themeing of the input elements
---border-color: #E2E8F0;
---border-radius: 6px;
---input-padding: 6px;
+  /* Themeing of the input elements */
+  --border-color: #E2E8F0;
+  --border-radius: 6px;
+  --input-padding: 6px;
+}
 ```
 
 ## Linting and formatting
