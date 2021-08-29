@@ -2,6 +2,8 @@
 
 Web Components to change your CSS variables on the fly
 
+[### Demo](https://bmpickford.github.io/cssvar-input/)
+
 ### Use Cases
  * Generators (e.g. Background generator)
  * User themeing
