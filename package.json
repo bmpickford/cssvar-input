@@ -3,10 +3,14 @@
   "description": "Easily update CSS vars through input",
   "license": "MIT",
   "author": "Benjamin Pickford",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "module": "index.js",
-  "files": ["index.js", "cssvarcolor/", "cssvarnumeric/"],
+  "files": [
+    "index.js",
+    "cssvarcolor/",
+    "cssvarnumeric/"
+  ],
   "scripts": {
     "start": "web-dev-server",
     "lint": "eslint --ext .js,.html . --ignore-path .gitignore && prettier \"**/*.js\" --check --ignore-path .gitignore",
