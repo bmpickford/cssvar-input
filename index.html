@@ -21,15 +21,26 @@
       border: 1px solid #b4b4b4;
       box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
     }
+
+
   </style>
 </head>
 <body>
+  <div id="demo"></div>
+
   <script type="module">
+    import { html, render } from 'lit';
     import './index.js';
+
+    const CSSVar = '--demo-width';
+    const CSSColor = '--theme-1';
+    render(
+      html`
+        <cssvar-numeric .propertyName=${CSSVar}></cssvar-numeric>
+        <cssvar-color .propertyName=${CSSColor}></cssvar-color>
+      `,
+      document.querySelector('#demo')
+    );
   </script>
-  <div id="demo">
-    <cssvar-numeric .propertyName="--demo-width"></cssvar-numeric>
-    <cssvar-color .propertyName="--theme-1"></cssvar-color>
-  </div>
 </body>
 </html>
